@@ -5,38 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Ganesh</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            
+            
+            background-image: linear-gradient(orange, white, green);
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+            padding: 10px;
+            /* align-items: center; */
+        }
+
+        #name{
+
+            color: black;
+            font-family: ubuntu;
+            font-size: 20px;
+            font-weight:bold;
+            /* line-height: 5em; */
+            /* border:20px solid; */
+
+
+        }
+
+        .list{
+
+         font-family:cursive;
+         /* background-image: url('ganesh.jpg');
+         background-repeat: no-repeat;
+         background-position: top;
+          */
+
+        }
+        table{
+           
+            border:2px solid black;
+            width: 40%;
+           
+        }
+        td,th{
+
+            border:2px solid white;
+            padding: 8px;
+            text-align: left;
+            
+        }
+        
+        
+       
+    </style>
+
 </head>
-<body style="background-color: rgba(23, 195, 226, 0.5);">
+<body >
 
-    &nbsp;&nbsp;&nbsp;&nbsp;<img src="ganesh.jpg" alt="Ganesh Mahajan" width="100px" height="100px" style="border-radius: 50px;">
-    <h4 style="color:rgba(0, 0, 0, 0.781);"><u>GANESH MAHAJAN</u></h4>
-    <hr style="color: rgb(247, 12, 12);">
+    <img src="ganesh.jpg" alt="Ganesh Mahajan" width="100px" height="100px" style="border-radius: 20px;">
+    <h4 id="name">GANESH MAHAJAN</h4>
+    <hr>
 
-    <h4>ABOUT:</h4>
-    <ul>
+    <h4 >ABOUT:</h4>
+    <ul class="list">
         <li>Student at <a href="https://www.nmiet.edu.in/" target="_blank">NMIET</a> ,Pune</li>
-        <li>Puesuing BE</li>
+        <li>Persuing BE</li>
         <li>FIELD:Computer</li>
     </ul>
     <hr>
-    <h4>Intrested in:</h4>
-    <ol>
+    <h4 >Intrested in:</h4>
+    <ol class="list">
         <li>Playing</li>
-        <li>Pwimming</li>
+        <li>Swimming</li>
         <li>Gyming</li>
         <li>Cycling</li>
     </ol>
     <hr>
-    <h4>Rating: </h4>
+    <h4 >Rating: </h4>
+
+
     <table>
         <thead>
             <tr>
                 <th>Cource</th>
                 <th>Rate</th>
             </tr>
+        
         </thead>
-
         <tbody>
+        
             <tr>
                 <td>C++</td>
                 <td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>
@@ -49,10 +106,12 @@
                 <td>Python</td>
                 <td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>
             </tr>
-        </tbody>
         
+        </thead>
     </table>
 
+    
+    
     <hr>
     
     
